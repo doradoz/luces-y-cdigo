@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="{jC-VbJmHrr*^=WY.TaT" x="0" y="0"><statement name="HANDLER"><block type="device_pause" id="acx;~6,Q-l~EEoP|O|75"><comment>El inicio de la palabra con pausa de 1 segundo va el signo #</comment><value name="pause"><shadow type="timePicker" id="cNu__0oqA}s%PzHeZ99@"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="bcysZHdvqeRAR)+{3ljf"><field name="LEDS">`
+        . # . . . 
+        . # . . . 
+        # # . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="j6^Q5(*q@%w4xBe6w0|B"><value name="pause"><shadow type="timePicker" id="f!K+tC|tq{DoROWd#*1s"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="uSo-a;/P$,EkC3unQ07O"><field name="LEDS">`
+        . . . . . 
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><comment>Cada palabra inicial con una coma y pausado 1 segundo </comment><next><block type="device_pause" id="@uch,bBM`mG|^V0W{1DS"><comment>Con pausa de 3 segundos por consonante empieza la letra G</comment><value name="pause"><shadow type="timePicker" id="ST6XN_]6QPPld,-bXaVX"><field name="ms">3000</field></shadow></value><next><block type="device_show_leds" id="q2uGt7LO2_p;=`Z9FMsn"><field name="LEDS">`
+        # # . . . 
+        # # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id=":nxO?c$w3?AG4EjJ|6cD"><comment>Con pausa de 1 segundo escribe la vocal A</comment><value name="pause"><shadow type="timePicker" id="4UkHzEzWKCO)^l6}1?dv"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="}y;u)y]5~=+Pt^07;Leb"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="c![G98!(TlkAuMwK)yrC"><comment>Con pausa de 3 segundos va la consonante T</comment><value name="pause"><shadow type="timePicker" id="1j.@n!Etr5ZM*Og*1xG:"><field name="ms">3000</field></shadow></value><next><block type="device_show_leds" id="IL}nIZLyfkp-b`WXVFaj"><field name="LEDS">`
+        . # . . . 
+        . # . . . 
+        # . . . . 
+        # . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="*Hsgn[/RR}rg=$}x7FHf"><comment>Con pausa 5 segundos para la vocal O</comment><value name="pause"><shadow type="timePicker" id="c95N3OOyR%SryXVCWmd8"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="OPJn3c2]dw-!!tg`M5{e"><field name="LEDS">`
+        # . . . . 
+        . # . . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="HbB3!`2kml5G0o[kno,+"><comment>Con pausa de un segundo y para finalizar la palabra escribo el símbolo #</comment><value name="pause"><shadow type="timePicker" id="I/ACAp)4}Ndz,6v3[v;z"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="KV#sb015sS:KOr?kqqm3"><field name="LEDS">`
+        . # . . . 
+        . # . . . 
+        # # . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
